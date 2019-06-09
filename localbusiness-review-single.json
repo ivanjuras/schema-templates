@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@graph": [
+  	{
+      "@type": "Review",
+      "author": "AUTHOR_NAME",
+      "reviewBody": "REVIEW_BODY",
+      "itemReviewed": {
+        "@id":"ORGANIZATION_ID"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "worstRating": 1,
+        "bestRating": 5
+      }
+    }
+  ]
+}
+</script>
+

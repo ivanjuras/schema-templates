@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+      {
+          "@id": "ORGANIZATION_ID",
+          "hasMap": "GOOGLE_MYMAP_ID",
+          "sameAs": [
+            "SAME_AS_LINK"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "CUSTOMER_PHONE_NUMBER",
+            "contactType": "Customer Service",
+            "email": "CUSTOMER_SERVICE_EMAIL",
+            "contactOption": "Phonecall",
+            "areaServed": "USA",
+            "availableLanguage": "English"
+        }
+      }
+  ]
+}
+</script>
