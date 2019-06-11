@@ -4,7 +4,10 @@
   "@graph": [
   	{
       "@type": "Review",
-      "author": "AUTHOR_NAME",
+      "author": {
+        "@type": "Person",
+        "name": "AUTHOR_NAME"
+      },
       "reviewBody": "REVIEW_BODY",
       "itemReviewed": {
         "@id":"ORGANIZATION_ID"
