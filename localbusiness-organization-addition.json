@@ -4,9 +4,8 @@
   "@graph": [
       {
           "@id": "ORGANIZATION_ID",
-          "hasMap": "GOOGLE_MYMAP_ID",
           "sameAs": [
-            "SAME_AS_LINK"
+            "SAME_AS_LINKS"
           ],
           "contactPoint": {
             "@type": "ContactPoint",

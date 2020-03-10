@@ -2,24 +2,47 @@
 {
   "@context": "http://schema.org/",
   "@graph": [
-  	{
-      "@type": "Review",
-      "author": {
-        "@type": "Person",
-        "name": "AUTHOR_NAME"
+    {
+      "@type": "Product",
+      "name": "SERVICE NAME",
+      "image": "SERVICE PHOTO",
+      "description": "SERVICE DESCRIPTION",
+      "brand": "BUSINESS NAME",
+      "sku": "SERVICE SLUG",
+      
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1",
+        "reviewCount": "1"
       },
-      "reviewBody": "REVIEW_BODY",
-      "itemReviewed": {
-        "@id":"ORGANIZATION_ID"
-      },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": 5,
-        "worstRating": 1,
-        "bestRating": 5
-      }
+
+      "review": {
+        "@type": "review",
+        "datePublished": "REVIEW DATE",
+        "itemReviewed": {
+          "@id":"https://WEBSITE/#organization"
+        },
+        "name": "REVIEWER FIRST NAME AND LAST NAME",
+        "author": {
+          "@type": "Person",
+          "name": "REVIEWER FIRST NAME AND LAST NAME"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Google My Business"
+        },
+        "reviewBody": "REVIEW BODY",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+          "worstRating": 1,
+          "bestRating": 5
+        }
+      }  
     }
   ]
 }
 </script>
-
